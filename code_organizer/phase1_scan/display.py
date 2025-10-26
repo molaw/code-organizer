@@ -220,7 +220,7 @@ def _display_duplicates(result: QuickScanResult) -> None:
     # Show first 5 pairs
     for i, (path1, path2) in enumerate(result.obvious_duplicates[:5], 1):
         console.print(f"  [cyan]{i}.[/cyan] {path1.name}")
-        console.print(f"     ↔  {path2.name}")
+        console.print(f"     <->  {path2.name}")
         console.print()
 
     if len(result.obvious_duplicates) > 5:

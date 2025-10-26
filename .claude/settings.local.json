@@ -4,7 +4,16 @@
       "Bash(uv sync:*)",
       "Bash(uv run python:*)",
       "Bash(git init:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nInitial commit: Phase 1A Quick Scanner implementation\n\nThis commit implements the foundation and Phase 1A (Quick Scanner) of the Code Organizer tool.\n\nFeatures implemented:\n- Project structure with modular architecture\n- Core utilities (logger, progress, file operations, config)\n- Phase 1A Quick Scanner:\n  * Fast project type detection (.NET, Python, Arduino, Node.js, Docker, C/C++)\n  * Quick wins identification (build artifacts, caches)\n  * Security issue detection (credentials, private keys)\n  * Duplicate detection based on name patterns\n  * Empty folder detection\n- Beautiful CLI output using Rich library\n- Click-based CLI interface\n- Comprehensive configuration system\n\nTechnology stack:\n- Python 3.12\n- Rich for terminal UI\n- Click for CLI\n- GitPython (ready for Phase 1B)\n- Full dependency management with uv\n\nNext phases:\n- Phase 1B: Deep analysis with git operations\n- Phase 1C: Interactive review mode\n- Phase 2: Organization and cleanup operations\n\nGenerated with Claude Code (claude.ai/code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(gh repo create:*)",
+      "Bash(git remote add:*)",
+      "Bash(git branch:*)",
+      "Bash(git push:*)",
+      "Bash(git commit:*)",
+      "Bash(curl -X POST -H \"Authorization: token <TOKEN>\" -H \"Accept: application/vnd.github.v3+json\" https://api.github.com/user/repos:*)",
+      "Bash(git remote set-url:*)",
+      "Bash(curl:*)"
     ],
     "deny": [],
     "ask": []

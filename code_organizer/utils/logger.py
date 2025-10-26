@@ -71,9 +71,9 @@ class CodeOrganizerLogger:
         """Log warning message."""
         self.logger.warning(message)
 
-    def error(self, message: str) -> None:
+    def error(self, message: str, exc_info: bool = False) -> None:
         """Log error message."""
-        self.logger.error(message)
+        self.logger.error(message, exc_info=exc_info)
 
     def critical(self, message: str) -> None:
         """Log critical message."""
