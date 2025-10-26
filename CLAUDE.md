@@ -2,6 +2,14 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## Skills Reference
+
+This project references centralized skills from: **https://github.com/molaw/claude-skills**
+
+Relevant skills for this project:
+- [GitHub Repository Management](https://github.com/molaw/claude-skills/blob/main/github/repository-management.md)
+- [User Profile & Preferences](https://github.com/molaw/claude-skills/blob/main/USER_PROFILE.md)
+
 ## Project Overview
 
 This is a **Code Organization Tool** - a Python script designed to help organize scattered source code across an entire computer. The project is in early development with a minimal starter implementation.
