@@ -37,3 +37,8 @@ htmlcov/
 .mypy_cache/
 .dmypy.json
 dmypy.json
+
+# Secrets
+.github_token
+*.token
+.env.local
